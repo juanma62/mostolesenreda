@@ -1,3 +1,51 @@
-body {
-    background-color: bisque;
+@import url('https://fonts.googleapis.com/css?family=Mali');
+
+$azulmostoles: #1f408f;
+$verdemostoles: #76aa3a;
+$naranjamostoles: #e2a900;
+$rojomostoles:#96151a;
+
+header{
+    .cabecera{
+        background-color: lighten($naranjamostoles, 15%);
+        width: 100%;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logoCabecera{
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.5rem;
+        width: 40%;
+        padding-bottom: 0.7rem;
+        img {
+            width: 100%;
+        }
+    }
+    .iconoMenu{
+        font-size: 40px;
+        color: $azulmostoles;
+        font-size: 8vw;
+        margin-right: 1rem;
+    }
+    h1{
+        color: black;
+        font-size: 1.84vw;
+        text-align: center;
+        margin-top: -.17rem;
+        font-family: 'Mali', cursive;
+    }
 }
+
+main{
+    .carruselPortada{
+        width: 100%;
+        img{
+        border-radius: 0 0 50% 50%;
+            width: 100%;
+        }
+    }
+}
+
