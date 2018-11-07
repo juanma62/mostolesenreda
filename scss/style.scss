@@ -6,40 +6,49 @@ $naranjamostoles: #e2a900;
 $rojomostoles:#96151a;
 
 header{
-    .cabecera{
+    width: 100%;
+    height: 5rem;
+    #cabecera{
         background-color: lighten($naranjamostoles, 15%);
-        width: 100%;
-        margin: 0;
+        position: fixed;
+        
         display: flex;
-        align-items: center;
         justify-content: space-between;
+        align-items: center;
+        padding-top: 0.5rem;
+        padding-bottom: 0.8rem;
+        padding-left: 0.5rem;
+        padding-right: 0.8rem;
     }
-    .logoCabecera{
-        margin-top: 0.5rem;
-        margin-left: 0.5rem;
-        margin-bottom: 0.5rem;
-        width: 40%;
-        padding-bottom: 0.7rem;
+    #logoCabecera{
+        width: 45%;
         img {
             width: 100%;
         }
     }
-    .iconoMenu{
-        font-size: 40px;
-        color: $azulmostoles;
-        font-size: 8vw;
-        margin-right: 1rem;
+    #iconoMenu{
+        font-size: 9vw;
+        display: flex;
+        width: 55%;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .sea {
+        color: $rojomostoles;
+        cursor: pointer;
     }
     h1{
         color: black;
-        font-size: 1.84vw;
+        font-size: 1.95vw;
         text-align: center;
         margin-top: -.17rem;
         font-family: 'Mali', cursive;
     }
-}
-
-main{
+    .cajaBuscar{
+        width: 100%;
+        height: 1.5rem;
+        background-color: white;
+    }
     .carruselPortada{
         width: 100%;
         img{
@@ -47,5 +56,29 @@ main{
             width: 100%;
         }
     }
+    .lupa{
+        color: $rojomostoles;
+        font-size: 5vw;
+        cursor: pointer;
+        width: 10%;
+        background-color: #76aa3a;
+        display: flex;
+        justify-content: center;
+        padding: .5rem;
+        position: absolute;
+        right: 0;
+    }
 }
 
+main{
+}
+
+// Footer
+
+footer{
+    width: 100%;
+    height: 5rem;
+    background-color: lighten($naranjamostoles, 15%);
+    position: fixed;
+    bottom: 0;
+}

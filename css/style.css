@@ -1,42 +1,74 @@
 @import url("https://fonts.googleapis.com/css?family=Mali");
-header .cabecera {
+header {
+  width: 100%;
+  height: 5rem;
+}
+header #cabecera {
   background-color: #ffcb30;
-  width: 100%;
-  margin: 0;
+  position: fixed;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.8rem;
+  padding-left: 0.5rem;
+  padding-right: 0.8rem;
 }
-header .logoCabecera {
-  margin-top: 0.5rem;
-  margin-left: 0.5rem;
-  margin-bottom: 0.5rem;
-  width: 40%;
-  padding-bottom: 0.7rem;
+header #logoCabecera {
+  width: 45%;
 }
-header .logoCabecera img {
+header #logoCabecera img {
   width: 100%;
 }
-header .iconoMenu {
-  font-size: 40px;
-  color: #1f408f;
-  font-size: 8vw;
-  margin-right: 1rem;
+header #iconoMenu {
+  font-size: 9vw;
+  display: flex;
+  width: 55%;
+  justify-content: flex-end;
+  align-items: center;
+}
+header .sea {
+  color: #96151a;
+  cursor: pointer;
 }
 header h1 {
   color: black;
-  font-size: 1.84vw;
+  font-size: 1.95vw;
   text-align: center;
   margin-top: -0.17rem;
   font-family: "Mali", cursive;
 }
-
-main .carruselPortada {
+header .cajaBuscar {
+  width: 100%;
+  height: 1.5rem;
+  background-color: white;
+}
+header .carruselPortada {
   width: 100%;
 }
-main .carruselPortada img {
+header .carruselPortada img {
   border-radius: 0 0 50% 50%;
   width: 100%;
+}
+header .lupa {
+  color: #96151a;
+  font-size: 5vw;
+  cursor: pointer;
+  width: 10%;
+  background-color: #76aa3a;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  position: absolute;
+  right: 0;
+}
+
+footer {
+  width: 100%;
+  height: 5rem;
+  background-color: #ffcb30;
+  position: fixed;
+  bottom: 0;
 }
 
 /*# sourceMappingURL=css/style.css.map */
