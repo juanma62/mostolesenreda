@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Mali");
 header {
   width: 100%;
-  height: 5rem;
-}
-header #cabecera {
   background-color: #ffcb30;
   position: fixed;
+}
+header #cabecera {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,7 +33,7 @@ header .sea {
 }
 header h1 {
   color: black;
-  font-size: 1.95vw;
+  font-size: 1.9vw;
   text-align: center;
   margin-top: -0.17rem;
   font-family: "Mali", cursive;
@@ -43,14 +43,8 @@ header .cajaBuscar {
   height: 1.5rem;
   background-color: white;
 }
-header .carruselPortada {
-  width: 100%;
-}
-header .carruselPortada img {
-  border-radius: 0 0 50% 50%;
-  width: 100%;
-}
-header .lupa {
+
+.lupa {
   color: #96151a;
   font-size: 5vw;
   cursor: pointer;
@@ -63,12 +57,18 @@ header .lupa {
   right: 0;
 }
 
+main .carruselPortada {
+  width: 100%;
+}
+main .carruselPortada img {
+  border-radius: 0 0 50% 50%;
+  width: 100%;
+}
+
 footer {
   width: 100%;
   height: 5rem;
   background-color: #ffcb30;
-  position: fixed;
-  bottom: 0;
 }
 
 /*# sourceMappingURL=css/style.css.map */
