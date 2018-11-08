@@ -9,6 +9,8 @@ header{
     width: 100%;
     background-color: lighten($naranjamostoles, 15%);
     position: fixed;
+    cursor: pointer;
+    top: 0;
     #cabecera{
         width: 100%;
         display: flex;
@@ -63,6 +65,7 @@ header{
 }
 
 main{
+    margin-top: 2rem;
     .carruselPortada{
         width: 100%;
         img{
@@ -70,6 +73,12 @@ main{
             width: 100%;
         }
     }
+}
+
+#mainId{
+    border:2px solid black;
+    z-index: 40;
+    margin-top: 0;
 }
 
 // Footer

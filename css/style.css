@@ -3,6 +3,8 @@ header {
   width: 100%;
   background-color: #ffcb30;
   position: fixed;
+  cursor: pointer;
+  top: 0;
 }
 header #cabecera {
   width: 100%;
@@ -57,12 +59,21 @@ header .cajaBuscar {
   right: 0;
 }
 
+main {
+  margin-top: 2rem;
+}
 main .carruselPortada {
   width: 100%;
 }
 main .carruselPortada img {
   border-radius: 0 0 50% 50%;
   width: 100%;
+}
+
+#mainId {
+  border: 2px solid black;
+  z-index: 40;
+  margin-top: 0;
 }
 
 footer {
