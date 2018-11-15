@@ -59,6 +59,11 @@ header .cajaBuscar {
   right: 0;
 }
 
+main {
+  border: 2px solid black;
+  z-index: 40;
+  margin-top: 5px;
+}
 main .carruselPortada {
   width: 100%;
 }
@@ -67,22 +72,10 @@ main .carruselPortada img {
   width: 100%;
 }
 
-#mainId {
-  border: 2px solid black;
-  z-index: 40;
-}
-
 footer {
   width: 100%;
   height: 5rem;
   background-color: #ffcb30;
-}
-
-.alto {
-  float: left;
-  width: 100%;
-  height: 10px;
-  margin-top: 0;
 }
 
 /*# sourceMappingURL=css/style.css.map */
