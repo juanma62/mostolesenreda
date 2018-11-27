@@ -16,34 +16,59 @@ header #cabecera {
   padding-left: 0.5rem;
   padding-right: 0.8rem;
 }
-header #logoCabecera {
+header #cabecera #logoCabecera {
   width: 45%;
 }
-header #logoCabecera img {
+header #cabecera #logoCabecera img {
   width: 100%;
 }
-header #iconoMenu {
+header #cabecera #iconoMenu {
   font-size: 9vw;
   display: flex;
   width: 55%;
   justify-content: flex-end;
   align-items: center;
 }
-header .sea {
-  color: #96151a;
-  cursor: pointer;
-}
-header h1 {
+header #cabecera h1 {
   color: black;
   font-size: 1.9vw;
   text-align: center;
   margin-top: -0.17rem;
   font-family: "Mali", cursive;
 }
+header #cabeceraPequena {
+  width: 100%;
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.8rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.8rem;
+}
+header #cabeceraPequena h1 {
+  color: black;
+  font-size: 3vw;
+  text-align: center;
+  margin-top: -0.17rem;
+  font-family: "Mali", cursive;
+}
+header #cabeceraPequena #logoCabeceraPequena > img {
+  width: 2rem;
+}
+header #cabeceraPequena #iconoMenuPequeno {
+  font-size: 2rem;
+  justify-content: flex-end;
+}
 header .cajaBuscar {
   width: 100%;
   height: 1.5rem;
   background-color: white;
+}
+
+.sea {
+  color: #96151a;
+  cursor: pointer;
 }
 
 .lupa {
@@ -70,6 +95,11 @@ main .carruselPortada {
 main .carruselPortada img {
   border-radius: 0 0 50% 50%;
   width: 100%;
+}
+main .cuerpo {
+  width: 100%;
+  height: 100rem;
+  background-color: antiquewhite;
 }
 
 footer {

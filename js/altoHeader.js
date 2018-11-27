@@ -9,11 +9,8 @@ export class AltoHeader {
     medirAlto(){
         if(!this.main.style.marginTop){
             this.main.style.marginTop = this.altoHeader+'px'
-            //location.reload(false)
-            console.log('Hola')
         }else{
             location.reload(false)
-            console.log('Adios')
         }
     }
 }
